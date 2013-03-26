@@ -1,3 +1,5 @@
+/* Blue Button */
+
 a.mydatabutton-blue{
     background-color: #fbfbfb;
 
@@ -51,6 +53,8 @@ a.mydatabutton-blue img{
     margin-right: 10px;
     vertical-align: middle;
 }
+
+/* Cancel Button */
 
 a.mydatabutton-cancel{
     background-color: #fbfbfb;
