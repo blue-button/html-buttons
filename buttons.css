@@ -1,0 +1,53 @@
+a.mydatabutton{
+    background-color: #fbfbfb;
+
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0.0, rgb(92,190,233)),
+        color-stop(1.0, rgb(36,108,201))
+    );
+    background-image: -moz-linear-gradient(
+        center top,
+        rgb(92,190,233) 0%,
+        rgb(36,108,201) 100%
+    );
+
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+
+    border-bottom: 1px solid #002c83;
+    border-left: 1px solid #00579e;
+    border-right: 1px solid #01589e;
+    border-top: 1px solid #35a4c5;
+
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+
+    color: #fff;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 15px 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 5px;
+
+    display: inline-block;
+}
+
+a.mydatabutton:active {
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    position: relative;
+    top: 1px;
+}
+
+a.mydatabutton img{
+    margin-right: 10px;
+    vertical-align: middle;
+}
